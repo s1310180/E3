@@ -24,5 +24,10 @@ class a3{
     System.out.print(", ");
     System.out.println("Tails: "+q);
 
+    if(p>q){
+        System.out.println("You won!");
+    }else{
+        System.out.println("You lost!");
+    }
     }
 }
